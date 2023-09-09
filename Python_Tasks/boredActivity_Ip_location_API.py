@@ -2,7 +2,7 @@ import requests
 
 url = 'https://www.boredapi.com/api/activity'
 url2='https://api.ipify.org/?format=json'
-url3='https://ipinfo.io/<YOUR_IP>/geo'
+url3='https://ipinfo.io/<192.168.56.1>/geo'
 
 while True:
     p=input("press b to suggest an activity\npress i to get ip\npress g to get location\nChoice: ")
